@@ -1,4 +1,3 @@
-'use strict';
 
 class Shape {
   constructor(name, height, width, length) {
@@ -13,7 +12,7 @@ class Shape {
   }
 }
 
-module.exports = Shape;
+module.export = Shape;
 
 // class Square extends Shape {
 //   constructor(length) {
@@ -31,7 +30,7 @@ module.exports = Shape;
 // class Rectangle extends Shape {
 //   constructor(height, width) {
 //     super(height, height, width, width);
-//     this.name = 'rectangle';
+//     this.name = 'rectangle';g
 //   }
 //   area() {
 //     return this.height * this.width;
