@@ -8,7 +8,7 @@ function runApp() {
   allShapes.push(new Square(4),new Rectangle(4,3),new Triangle(3,4,5),new Circle(3));
 
   let printShapes = allShapes.map(shape => {
-    console.log(`name: ${shape.printName()}, dimensions: ${shape.printDimensions()}, area: ${shape.area()}`)
+    console.log(`${shape.printName()}, dimensions: ${shape.printDimensions()}, area: ${shape.area()}`)
   })
 
   return printShapes

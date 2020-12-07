@@ -12,7 +12,7 @@ class Shape {
   }
 }
 
-module.export = Shape;
+module.exports = Shape;
 
 // class Square extends Shape {
 //   constructor(length) {
