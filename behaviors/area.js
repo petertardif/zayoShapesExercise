@@ -12,8 +12,9 @@ const area = (state) => ({
         return state.length ** 2;
       case 'triangle':
         return state.base/2 * state.height;
+
+      default: return `Cannot calculate area of unknown shape.`
     }
-    return `Cannot calculate area without dimensions.`
   }
 });
 
